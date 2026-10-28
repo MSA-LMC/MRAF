@@ -124,3 +124,13 @@ csv_files/submission_combined/
 - **Reliability-weighted fusion**: Learned per-modality reliability scores (sigmoid gates)
 - **Learnable Missing Token**: Replaces all-zero face inputs for graceful audio-only inference
 - **Cross-Attention fusion**: Face tokens attend to audio tokens and vice versa
+
+## Citation
+```
+@article{jia2026missing,
+  title={Missing-Token Prompted Reliability-Aware Fusion for Robust Polyglot Speaker Identification},
+  author={Jia, Peng and Dai, Li and Li, Jia and Hu, Zhenzhen and Zhao, Ye and Hong, Richang},
+  journal={arXiv preprint arXiv:2606.12495},
+  year={2026}
+}
+```
